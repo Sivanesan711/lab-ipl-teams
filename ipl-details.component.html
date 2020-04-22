@@ -1,0 +1,8 @@
+<ul class="details">
+  <li *ngFor="let detail of details">
+    <h3> {{detail.name}} </h3>
+    <p> {{detail.website}}</p>
+    <p>{{detail.phoneNumber}}</p>
+    <img src="{{detail.image}}" alt="image{{detail.name}}"/>
+  </li>
+</ul>
